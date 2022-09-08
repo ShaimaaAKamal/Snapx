@@ -285,6 +285,14 @@ footer{
     opacity: 1;
 }
 
+.RecentlyAdded{
+    transform: translateY(500px);
+}
+
+
+.contestFooter{
+    top:600px;
+}
 
 
 @media screen and (min-width:400px){
@@ -393,6 +401,13 @@ footer{
     transform: translateY(250px);
 }
 
+.RecentlyAdded{
+    transform: translateY(300px);
+}
+
+.contestFooter{
+    top:400px;
+}
 
   
 }
