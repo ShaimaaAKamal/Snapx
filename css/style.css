@@ -82,7 +82,7 @@ nav{
     background-image: url('../images/banner-bg.jpg');
     background-size: cover;
     background-position: center top;
-    height: 120vh;
+    height: 115vh;
 }
 
 .heading{
@@ -107,7 +107,7 @@ color:var(--siteColor)!important;
     position:relative;
     left:50%;
     transform: translateX(-50%);
-    bottom:-200px;
+    bottom:-140px;
 }
 
 .btn-left{
@@ -144,8 +144,13 @@ color:var(--siteColor)!important;
 
 
 @media screen and (min-width:768px){
+    
+    #Banner{
+        height:110vh;
+       }
+
     .BannerPics {
-        bottom:-230px;
+        bottom:-150px;
     }
 
     .btn-left{
@@ -181,6 +186,9 @@ color:var(--siteColor)!important;
    /* nav section */
 
    /* home section */
+   .BannerPics {
+    bottom:-200px;
+}
     .heading{
         font-size:4rem;
     }
@@ -188,6 +196,7 @@ color:var(--siteColor)!important;
     .f-p{
         font-size:1rem;
     }
+    
 
 
   

@@ -14,7 +14,7 @@ function carousel() {
       (slides[i].children[0]).children[0].setAttribute('alt',`Pic 1`);
     }
   }
-  setTimeout(carousel, 2000); // Change image every 2 seconds
+  setTimeout(carousel, 4000); // Change image every 2 seconds
 }
 
 
