@@ -82,7 +82,7 @@ nav{
     background-image: url('../images/banner-bg.jpg');
     background-size: cover;
     background-position: center top;
-    height: 115vh;
+    height: 130vh;
 }
 
 .heading{
@@ -107,7 +107,7 @@ color:var(--siteColor)!important;
     position:relative;
     left:50%;
     transform: translateX(-50%);
-    bottom:-140px;
+    bottom:-90px;
 }
 
 .btn-left{
@@ -146,6 +146,20 @@ color:var(--siteColor)!important;
     top:20px;
 }
 
+@media screen and (min-width:400px){
+    .BannerPics {
+        bottom:-120px;
+    }
+}
+
+@media screen and (min-width:500px){
+    #Banner{
+        height:115vh;
+       }
+       .BannerPics {
+        bottom:-140px;
+    }
+}
 
 @media screen and (min-width:768px){
     
