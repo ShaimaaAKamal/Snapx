@@ -10,6 +10,10 @@
     background-color: var(--siteColor);
 }
 
+.btn-site{
+    background-color: var(--siteColor);
+}
+
 .fs-9{
     font-size:.9rem;
 }
@@ -146,6 +150,44 @@ color:var(--siteColor)!important;
     top:20px;
 }
 
+
+/* Categories SECTION */
+
+.Categories {
+    top:200px;
+}
+
+.categoryCard {
+    border:1px solid #E0E0E0;
+}
+
+.CategoryIcon{
+    background-color: #F7F7F7;
+}
+
+.btnBorder{
+    border:1px solid var(--siteColor);
+}
+
+.btnBorder:hover{
+    background-color: var(--siteColor)!important;
+    color:#fff;
+}
+.categoryLike{
+    transform: translateY(-100px);
+    transition: all .5s;
+}
+
+.categoryImg:hover .categoryLike{
+    transform: translateY(0);
+}
+.topbadge{
+    margin-left:-2px;
+}
+.DiscoverBtn:hover{
+    border-color:var(--siteColor);
+    color:var(--siteColor)!important;
+}
 @media screen and (min-width:400px){
     .BannerPics {
         bottom:-120px;
