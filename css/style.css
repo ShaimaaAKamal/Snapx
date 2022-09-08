@@ -30,6 +30,9 @@
     color:#AFAFAF;
 }
 
+.w-90{
+    width:95%;
+}
 
 /* General Classes */
 
@@ -264,9 +267,23 @@ footer{
 .contestSearch{
     transform: translateY(15%);
 }
-/* .contestSearch{
-    bottom:-400px;
-} */
+
+.VideoPhotos{
+    transform: translateY(500px);
+}
+.btn-width{
+    width:25%;
+}
+
+.playVideo{
+    top:45%;
+    opacity: 0;
+    transition: all 1s;
+}
+
+.vidroCard:hover .playVideo{
+    opacity: 1;
+}
 
 
 
@@ -360,17 +377,23 @@ footer{
     
    /* home section */
 
-   /* .contestSearch{
-    bottom:-350px;
-} */
 
 .contestBanner{
     height: 80vh;
+}
+.btn-width{
+    width:100%;
 }
 
 .contestSearch{
     transform: translateY(120%);
 }
+
+.VideoPhotos{
+    transform: translateY(250px);
+}
+
+
   
 }
 
