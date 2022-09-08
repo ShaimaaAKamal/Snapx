@@ -114,13 +114,13 @@ color:var(--siteColor)!important;
     bottom:-90px;
 }
 
-.btn-left{
-    position: relative;
+#Banner .btn-left{
+   position: relative;
   left:-10px;
   z-index:30;
 }
 
-.btn-right{
+#Banner .btn-right{
     position: relative;
     right:-10px;
     z-index:30;
@@ -188,6 +188,46 @@ color:var(--siteColor)!important;
     border-color:var(--siteColor);
     color:var(--siteColor)!important;
 }
+
+
+
+.closedContest{
+    top:250px;
+    background-image:url("../images/closed-bg.jpg");
+}
+
+.roundedClosed{
+    border-radius: 1rem 1rem 0 0;
+}
+
+.closedInfo{
+    transform: translateY(-100%);
+    transition: all .5s;
+}
+.closedCard:hover .closedInfo{
+    transform: translateY(0);
+}
+.closedButtons{
+    top:35%;
+    z-index: 1000;
+}
+
+.closedButtons .btn-left{
+    position: relative;
+    z-index:300;
+    left:-20px;
+}
+
+.closedButtons .btn-right{
+    position: relative;
+    z-index:300;
+    right:-20px;
+}
+.closedButtons .btn-right:hover,.closedButtons .btn-left:hover{
+    opacity:1 !important;
+}
+
+
 @media screen and (min-width:400px){
     .BannerPics {
         bottom:-120px;
