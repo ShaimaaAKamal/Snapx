@@ -240,6 +240,10 @@ color:var(--siteColor)!important;
     color:var(--siteColor);
 }
 
+footer{
+    top:300px;
+}
+
 @media screen and (min-width:400px){
     .BannerPics {
         bottom:-120px;
