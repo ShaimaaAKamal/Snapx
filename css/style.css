@@ -30,6 +30,7 @@
     color:#AFAFAF;
 }
 
+
 /* General Classes */
 
 /* Nav SECTION */
@@ -244,6 +245,31 @@ footer{
     top:300px;
 }
 
+/* End Of Home Page */
+
+.contestBanner{
+    background-image:url("../images/heading-bg.jpg");
+    background-size: cover;
+    height: 95vh;
+}
+
+.contestBanner .form-select,.contestBanner .form-control{
+    color:#6C757D;
+    background-color: #F7F7F7;
+    font-size: .8rem;
+    border:none;
+    padding:.8rem;
+    border-radius:.5rem;
+}
+.contestSearch{
+    transform: translateY(35%);
+}
+/* .contestSearch{
+    bottom:-400px;
+} */
+
+
+
 @media screen and (min-width:400px){
     .BannerPics {
         bottom:-120px;
@@ -257,6 +283,9 @@ footer{
        .BannerPics {
         bottom:-140px;
     }
+    
+
+    
 }
 
 @media screen and (min-width:768px){
@@ -275,6 +304,14 @@ footer{
       .btn-right{
           right:-50px;
       }
+
+      .contestBanner{
+        height: 90vh;
+    } 
+
+      .contestSearch{
+        transform: translateY(40%);
+    }
 
 }
 @media screen and (min-width:992px){
@@ -319,6 +356,18 @@ footer{
     }
     
    /* home section */
+
+   /* .contestSearch{
+    bottom:-350px;
+} */
+
+.contestBanner{
+    height: 80vh;
+}
+
+.contestSearch{
+    transform: translateY(120%);
+}
   
 }
 
