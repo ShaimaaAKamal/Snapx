@@ -142,6 +142,10 @@ color:var(--siteColor)!important;
     transform: translateY(0);
 }
 
+.BannerCaption{
+    top:20px;
+}
+
 
 @media screen and (min-width:768px){
     
@@ -152,7 +156,6 @@ color:var(--siteColor)!important;
     .BannerPics {
         bottom:-150px;
     }
-
     .btn-left{
         left:-50px;
       }
@@ -187,8 +190,14 @@ color:var(--siteColor)!important;
 
    /* home section */
    .BannerPics {
-    bottom:-200px;
+    bottom:-175px;
 }
+
+.BannerCaption{
+    top:40px;
+}
+
+
     .heading{
         font-size:4rem;
     }
@@ -197,12 +206,18 @@ color:var(--siteColor)!important;
         font-size:1rem;
     }
     
-
-
-  
-    
    /* home section */
-
   
 }
 
+@media screen and (min-width:1200px){
+    .BannerPics {
+        bottom:-200px;
+    }
+    
+    .BannerCaption{
+        top:80px;
+    }
+    
+    
+}
