@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/all.min.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
 
-        <nav class="navbar navbar-expand-lg bg-light py-lg-0 p-3">
+        <nav class="navbar navbar-expand-lg bg-light py-lg-0 p-3 position-absolute top-0 w-100">
             <div class="container-lg position-relative">
               <a class="navbar-brand " href="#"><img src="images/logo.png" alt="logo" class="w-100"></a>
 
@@ -45,9 +46,71 @@
                
 
             </div>
-          </nav>
+        </nav>
 
-         
+        <section id="Banner" class="d-flex justify-content-center align-items-center">
+            <div class="container px-lg-5 text-center position-relative  ">
+              <div>
+                <h1 class="fw-bolder heading text-white px-lg-5 py-5">Enter a world of <span class="text-site">Photos</span> & Amazing <span class="text-site">Awards</span></h1>
+                <p class="text-white fw-light  px-4 px-lg-5 mx-lg-5 py-4 border-Banner f-p">SnapX Photography is a professional website template with 5 different HTML pages for maximum customizations. It is free for commercial usage. This Bootstrap v5.1.3 CSS layout is provided by TemplateMo Free CSS Templates.</p>
+                <div class="mt-5 d-flex align-items-center justify-content-center">
+                    <button class="btn border-1 border-white p-3 text-white fw-normal fs-5 me-5 btnBanner">Explore Snapx Contest</button>
+                    <a href="#" class="text-decoration-none text-white d-flex align-items-center linkBanner"><i class="fa-solid fa-caret-right fs-4 me-2"></i> Watch Our Video Now</a>
+                </div>
+              </div>
+              <div class="row  BannerPics w-100 m-auto align-items-center">
+                <div class="d-flex justify-content-between position-absolute translate-middle-y">
+                <button class="px-3 py-2 bg-site rounded-circle opacity-50 border-0 text-white  btn-left" onclick="plusDivs(-1)"><i class="fa-solid fa-chevron-left"></i></button>
+                <button class="px-3 py-2 bg-site rounded-circle opacity-50 border-0 text-white  btn-right" onclick="plusDivs(+1)"><i class="fa-solid fa-chevron-right"></i></button>
+                </div>
+                <div class="col-md-6 col-lg-4 mySlides slide-1">
+                  <div class="position-relative overflow-hidden">
+                    <img src="images/waiting-01.jpg" alt="Pic 1" class="rounded-medium w-100">
+                    <div class="bg-light contestCard rounded-medium">
+                          <div>
+                            <h5 class=" mb-4 text-site">Smile in The Nature   <i class="fa-solid fa-star fs-9"></i><i class="fa-solid fa-star fs-9"></i><i class="fa-solid fa-star fs-9 "></i> <span class="fw-light fs-9 text-secondary">(4.5)</span></h5>
+                            <h6>Contest Winner<span class="fw-light fs-9 text-secondary">: Vincent Adam</span></h6>
+                            <h6>Contest Author<span class="fw-light fs-9 text-secondary">: Maxiam Kiril</span></h6>
+                            <h6>Awards<span class="fw-light fs-9 text-secondary">: $8,500 + Canon EOS R7</span></h6>
+                          </div>    
+                    </div>
+                </div>
+                </div>
+                <div class="col-md-6 col-lg-4 d-none d-md-block mySlides slide-2">
+                  <div class="position-relative overflow-hidden">
+                    <img src="images/waiting-02.jpg" alt="Pic 2" class="rounded-medium w-100">
+                    <div class="bg-light contestCard rounded-medium">
+                      <div>
+                        <h5 class=" mb-4 text-site">Smile in The Nature   <i class="fa-solid fa-star fs-9"></i><i class="fa-solid fa-star fs-9"></i><i class="fa-solid fa-star fs-9 "></i> <span class="fw-light fs-9 text-secondary">(4.5)</span></h5>
+                        <h6>Contest Winner<span class="fw-light fs-9 text-secondary">: Vincent Adam</span></h6>
+                        <h6>Contest Author<span class="fw-light fs-9 text-secondary">: Maxiam Kiril</span></h6>
+                        <h6>Awards<span class="fw-light fs-9 text-secondary">: $8,500 + Canon EOS R7</span></h6>
+                      </div>    
+                </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4 d-none d-lg-block mySlides slide-3">
+                  <div class="position-relative overflow-hidden">
+                    <img src="images/waiting-03.jpg" alt="pic 3" class="rounded-medium w-100">
+                    <div class="bg-light contestCard rounded-medium">
+                      <div>
+                        <h5 class=" mb-4 text-site">Smile in The Nature   <i class="fa-solid fa-star fs-9"></i><i class="fa-solid fa-star fs-9"></i><i class="fa-solid fa-star fs-9 "></i> <span class="fw-light fs-9 text-secondary">(4.5)</span></h5>
+                        <h6>Contest Winner<span class="fw-light fs-9 text-secondary">: Vincent Adam</span></h6>
+                        <h6>Contest Author<span class="fw-light fs-9 text-secondary">: Maxiam Kiril</span></h6>
+                        <h6>Awards<span class="fw-light fs-9 text-secondary">: $8,500 + Canon EOS R7</span></h6>
+                      </div>    
+                </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+           
+               
+        </section>
+
+
+  
         <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/script.js"></script>
     </body>
 </html>

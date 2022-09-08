@@ -18,6 +18,18 @@
     font-size:.8rem;
 }
 
+.rounded-medium{
+    border-radius: 1rem;
+}
+
+/* General Classes */
+
+/* Nav SECTION */
+
+nav{
+    z-index:999999
+}
+
 .bg-nav-site{
    background-color: #F7F7F7;
     position: absolute;
@@ -38,7 +50,7 @@
 
 .login{
     position:absolute;
-    right:9%;
+    right:calc(var(--bs-navbar-toggler-font-size) + 60px );
     top:12px;
 }
 .dropdown:hover .dropdown-menu {
@@ -59,11 +71,94 @@
     border-bottom: 1px solid #C7C7C7;
 }
 
+.f-p{
+    font-size:.9rem;
+    line-height: 1.8rem;
+}
+
+/* Nav SECtion */
+
+#Banner{
+    background-image: url('../images/banner-bg.jpg');
+    background-size: cover;
+    background-position: center top;
+    height: 120vh;
+}
+
+.heading{
+    font-size:3rem;
+}
 
 
+.border-Banner{
+    border-top:1px solid #606062;
+}
 
+.btnBanner:hover{
+background-color: #fff;
+color:var(--siteColor)!important;
+}
+
+.linkBanner:hover{
+    color:var(--siteColor) !important;
+}
+
+.BannerPics {
+    position:relative;
+    left:50%;
+    transform: translateX(-50%);
+    bottom:-200px;
+}
+
+.btn-left{
+    position: relative;
+  left:-10px;
+  z-index:30;
+}
+
+.btn-right{
+    position: relative;
+    right:-10px;
+    z-index:30;
+}
+.BannerPics >div:first-of-type{
+    top:50%;
+    z-index: 100;
+}
+.contestCard{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left:0;
+    right:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(110%);
+    transition: all 1s;
+}
+
+.mySlides > div:hover  .contestCard{
+    transform: translateY(0);
+}
+
+
+@media screen and (min-width:768px){
+    .BannerPics {
+        bottom:-230px;
+    }
+
+    .btn-left{
+        left:-50px;
+      }
+      
+      .btn-right{
+          right:-50px;
+      }
+
+}
 @media screen and (min-width:992px){
-
+   /* nav section */
     .login{
         position:static;
     }
@@ -83,6 +178,21 @@
     .menulinks{
         border-bottom:none;
     }
+   /* nav section */
+
+   /* home section */
+    .heading{
+        font-size:4rem;
+    }
+
+    .f-p{
+        font-size:1rem;
+    }
+
+
+  
+    
+   /* home section */
 
   
 }
