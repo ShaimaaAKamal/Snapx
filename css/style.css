@@ -26,6 +26,10 @@
     border-radius: 1rem;
 }
 
+.text-gray{
+    color:#AFAFAF;
+}
+
 /* General Classes */
 
 /* Nav SECTION */
@@ -190,7 +194,7 @@ color:var(--siteColor)!important;
 }
 
 
-
+/* closed contest section */
 .closedContest{
     top:250px;
     background-image:url("../images/closed-bg.jpg");
@@ -227,6 +231,14 @@ color:var(--siteColor)!important;
     opacity:1 !important;
 }
 
+
+/* Pricing */
+.pricing{
+    top:300px;
+}
+.planHeading:hover{
+    color:var(--siteColor);
+}
 
 @media screen and (min-width:400px){
     .BannerPics {
