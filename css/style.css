@@ -295,6 +295,20 @@ footer{
 }
 
 
+.openContest ul {
+    padding-left:1rem !important
+}
+
+.openBadge{
+    background-color: #F0F0F0;
+}
+
+.openContest{
+    top:-100px;
+}
+
+
+
 @media screen and (min-width:400px){
     .BannerPics {
         bottom:-120px;
@@ -340,6 +354,8 @@ footer{
       .contestSearch{
         transform: translateY(40%);
     }
+
+   
 
 }
 @media screen and (min-width:992px){
@@ -408,7 +424,6 @@ footer{
 .contestFooter{
     top:400px;
 }
-
   
 }
 
@@ -420,6 +435,5 @@ footer{
     .BannerCaption{
         top:80px;
     }
-    
     
 }
