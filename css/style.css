@@ -251,6 +251,8 @@ color:var(--siteColor)!important;
     height: 95vh;
 }
 
+
+
 .contestBanner .form-select,.contestBanner .form-control{
     color:#6C757D;
     background-color: #F7F7F7;
@@ -304,6 +306,16 @@ color:var(--siteColor)!important;
     color:var(--siteColor) !important ;
 }
 
+
+#categoriesBanner{
+    background-image:url("../images/heading-bg.jpg");
+    background-size: cover;
+    height: 95vh;
+}
+
+.categoriesCard{
+    top:-100px;
+}
 
 @media screen and (min-width:500px){
     #Banner{
