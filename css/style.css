@@ -165,9 +165,6 @@ color:var(--siteColor)!important;
 
 /* Categories SECTION */
 
-.Categories {
-    top:200px;
-}
 
 .categoryCard {
     border:1px solid #E0E0E0;
@@ -204,7 +201,7 @@ color:var(--siteColor)!important;
 
 /* closed contest section */
 .closedContest{
-    top:250px;
+    /* top:250px; */
     background-image:url("../images/closed-bg.jpg");
 }
 
@@ -241,15 +238,9 @@ color:var(--siteColor)!important;
 
 
 /* Pricing */
-.pricing{
-    top:300px;
-}
+
 .planHeading:hover{
     color:var(--siteColor);
-}
-
-footer{
-    top:300px;
 }
 
 /* End Of Home Page */
@@ -268,17 +259,13 @@ footer{
     padding:.8rem;
     border-radius:.5rem;
 }
-/* .contestSearch{
-    transform: translateY(10%);
-} */
+
 
 .contestSearch{
     top:-50px;
 }
 
-/* .VideoPhotos{
-    transform: translateY(500px);
-} */
+
 .btn-width{
     width:25%;
 }
@@ -292,15 +279,6 @@ footer{
 .vidroCard:hover .playVideo{
     opacity: 1;
 }
-
-/* .RecentlyAdded{
-    transform: translateY(500px);
-} */
-
-
-/* .contestFooter{
-    top:600px;
-} */
 
 
 .openContest ul {
@@ -327,24 +305,10 @@ footer{
 }
 
 
-@media screen and (min-width:400px){
-    /* .BannerPics {
-        bottom:-120px;
-    } */
-    /* .contestSearch{
-        transform: translateY(35%);
-    } */
-}
-
 @media screen and (min-width:500px){
     #Banner{
         height:115vh;
        }
-       /* .BannerPics {
-        bottom:-140px;
-    } */
-    
-
     
 }
 
@@ -354,9 +318,6 @@ footer{
         height:110vh;
        }
 
-    /* .BannerPics {
-        bottom:-150px;
-    } */
     .btn-left{
         left:-50px;
       }
@@ -367,13 +328,7 @@ footer{
 
       .contestBanner{
         height: 90vh;
-    } 
-
-      /* .contestSearch{
-        transform: translateY(40%);
-    } */
-
-   
+    }    
 
 }
 @media screen and (min-width:992px){
@@ -400,15 +355,6 @@ footer{
    /* nav section */
 
    /* home section */
-   /* .BannerPics {
-    bottom:-175px;
-} */
-
-/* .BannerCaption{
-    top:40px;
-} */
-
-
     .heading{
         font-size:4rem;
     }
@@ -426,32 +372,6 @@ footer{
 .btn-width{
     width:100%;
 }
-
-/* .contestSearch{
-    transform: translateY(120%);
-} */
-
-/* .VideoPhotos{
-    transform: translateY(250px);
-} */
-
-/* .RecentlyAdded{
-    transform: translateY(300px);
-} */
-
-/* .contestFooter{
-    top:400px;
-} */
   
 }
 
-@media screen and (min-width:1200px){
-    /* .BannerPics {
-        bottom:-200px;
-    }
-     */
-    /* .BannerCaption{
-        top:80px;
-    } */
-    
-}
