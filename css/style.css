@@ -313,10 +313,18 @@ color:var(--siteColor)!important;
     height: 95vh;
 }
 
-.categoriesCard{
-    top:-100px;
+.categoryCard{
+   bottom:20px; 
+   right: -100%;
+   transition: all 1s;
 }
+/* .w-45{
+    width:45%;
+} */
 
+.featureCate:hover .categoryCard{
+    right:10px
+}
 @media screen and (min-width:500px){
     #Banner{
         height:115vh;
