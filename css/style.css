@@ -200,8 +200,7 @@ color:var(--siteColor)!important;
 
 
 /* closed contest section */
-.closedContest{
-    /* top:250px; */
+.closedContest,.clientSays{
     background-image:url("../images/closed-bg.jpg");
 }
 
@@ -318,12 +317,27 @@ color:var(--siteColor)!important;
    right: -100%;
    transition: all 1s;
 }
-/* .w-45{
-    width:45%;
-} */
 
 .featureCate:hover .categoryCard{
     right:10px
+}
+
+.quote::after{
+    content:"";
+    width:40%;
+    height:1px;
+    background-color: #DFDFDF;
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%); 
+    bottom:0;
+}
+
+.carousel-indicators [data-bs-target]{
+    background-color: var(--siteColor);
+    width:10px;
+    height:10px;
+    border-radius:50%;
 }
 @media screen and (min-width:500px){
     #Banner{
@@ -349,6 +363,11 @@ color:var(--siteColor)!important;
       .contestBanner{
         height: 90vh;
     }    
+
+    .quote::after{
+        left:0;
+        transform: translateX(0); 
+    }
 
 }
 @media screen and (min-width:992px){
