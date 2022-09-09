@@ -158,8 +158,12 @@ color:var(--siteColor)!important;
     transform: translateY(0);
 }
 
-.BannerCaption{
+ .BannerCaption{
     bottom:50px;
+}
+
+.contestBanner .BannerCaption{
+    top:110px;
 }
 
 
