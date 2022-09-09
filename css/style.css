@@ -308,6 +308,15 @@ footer{
 }
 
 
+.otherCard{
+    background-color: #F7F7F7;
+}
+
+.breadCrum span:nth-of-type(2):hover{
+    background-color: #fff;
+    border:1px solid var(--siteColor);
+    color:var(--siteColor) !important ;
+}
 
 @media screen and (min-width:400px){
     .BannerPics {
