@@ -311,7 +311,9 @@ color:var(--siteColor)!important;
     background-size: cover;
     height: 95vh;
 }
-
+.categoriesCard{
+    top:-100px;
+}
 .categoryCard{
    bottom:20px; 
    right: -100%;
