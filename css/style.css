@@ -311,6 +311,12 @@ color:var(--siteColor)!important;
     background-size: cover;
     height: 95vh;
 }
+
+#usersBanner{
+    background-image:url("../images/heading-bg.jpg");
+    background-size: cover;
+    height: 80vh;
+}
 .categoriesCard{
     top:-100px;
 }
