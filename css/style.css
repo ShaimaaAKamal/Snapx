@@ -318,6 +318,10 @@ footer{
     color:var(--siteColor) !important ;
 }
 
+.singleFooter{
+  top:0;
+}
+
 @media screen and (min-width:400px){
     .BannerPics {
         bottom:-120px;
