@@ -115,11 +115,15 @@ color:var(--siteColor)!important;
     color:var(--siteColor) !important;
 }
 
+
+
+.pics{
+    top:-100px;
+}
 .BannerPics {
     position:relative;
     left:50%;
     transform: translateX(-50%);
-    bottom:-90px;
 }
 
 #Banner .btn-left{
@@ -155,7 +159,7 @@ color:var(--siteColor)!important;
 }
 
 .BannerCaption{
-    top:20px;
+    bottom:50px;
 }
 
 
@@ -324,9 +328,9 @@ footer{
 
 
 @media screen and (min-width:400px){
-    .BannerPics {
+    /* .BannerPics {
         bottom:-120px;
-    }
+    } */
     /* .contestSearch{
         transform: translateY(35%);
     } */
@@ -336,9 +340,9 @@ footer{
     #Banner{
         height:115vh;
        }
-       .BannerPics {
+       /* .BannerPics {
         bottom:-140px;
-    }
+    } */
     
 
     
@@ -350,9 +354,9 @@ footer{
         height:110vh;
        }
 
-    .BannerPics {
+    /* .BannerPics {
         bottom:-150px;
-    }
+    } */
     .btn-left{
         left:-50px;
       }
@@ -396,13 +400,13 @@ footer{
    /* nav section */
 
    /* home section */
-   .BannerPics {
+   /* .BannerPics {
     bottom:-175px;
-}
+} */
 
-.BannerCaption{
+/* .BannerCaption{
     top:40px;
-}
+} */
 
 
     .heading{
@@ -442,12 +446,12 @@ footer{
 }
 
 @media screen and (min-width:1200px){
-    .BannerPics {
+    /* .BannerPics {
         bottom:-200px;
     }
-    
-    .BannerCaption{
+     */
+    /* .BannerCaption{
         top:80px;
-    }
+    } */
     
 }
