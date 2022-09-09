@@ -351,6 +351,27 @@ color:var(--siteColor)!important;
 .logocircle{
     top:-100px;
 }
+
+.portfolioCard{
+ transition: all .5s;
+}
+.portfolio:hover .portfolioCard{
+    opacity: 1 !important;
+}
+
+.Photos{
+    background-color: #F7F7F7;
+}
+
+.pHover:hover{
+color:var(--siteColor);
+}
+
+.contactUser .form-control{
+    background-color: #F7F7F7;
+    color:#333;
+    font-size: .8rem;
+}
 @media screen and (min-width:500px){
     #Banner{
         height:115vh;
