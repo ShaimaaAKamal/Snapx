@@ -347,6 +347,10 @@ color:var(--siteColor)!important;
     height:10px;
     border-radius:50%;
 }
+
+.logocircle{
+    top:-100px;
+}
 @media screen and (min-width:500px){
     #Banner{
         height:115vh;
