@@ -161,24 +161,6 @@ color:var(--siteColor)!important;
 }
 
 
-/* .BannerCaption{
-    left:50%;
-    transform: translateX(-50%);
-    top:20px;
-} */
- /* .BannerCaption{
-    bottom:70px;
-} */
-
-.bannerWidth{
-    width:95%
-}
-
-/* .contestBanner .BannerCaption{
-    bottom:-70px;
-} */
-
-
 /* Categories SECTION */
 
 
@@ -260,11 +242,9 @@ color:var(--siteColor)!important;
 
 /* End Of Home Page */
 
-.contestBanner{
+.contestBanner,#categoriesBanner,#usersBanner{
     background-image:url("../images/heading-bg.jpg");
     background-size: cover;
-
-    /* height: 95vh; */
     padding-top:200px;
     padding-bottom:200px;
 }
@@ -325,21 +305,6 @@ color:var(--siteColor)!important;
 }
 
 
-#categoriesBanner{
-    background-image:url("../images/heading-bg.jpg");
-    background-size: cover;
-    /* height: 95vh; */
-    padding-top:200px;
-    padding-bottom: 200px;
-}
-
-#usersBanner{
-    background-image:url("../images/heading-bg.jpg");
-    background-size: cover;
-    /* height: 80vh; */
-    padding-top:200px;
-    padding-bottom: 200px;
-}
 .categoriesCard{
     top:-100px;
 }
@@ -395,19 +360,10 @@ color:var(--siteColor);
     color:#333;
     font-size: .8rem;
 }
-@media screen and (min-width:500px){
-    /* #Banner{
-        height:115vh;
-       } */
-    
-}
 
 @media screen and (min-width:768px){
     
-    /* #Banner{
-        height:120vh;
-       } */
-
+    
     .btn-left{
         left:-50px;
       }
@@ -415,10 +371,6 @@ color:var(--siteColor);
       .btn-right{
           right:-50px;
       }
-
-      /* .contestBanner{
-        height: 90vh;
-    }     */
 
     .quote::after{
         left:0;
@@ -428,10 +380,6 @@ color:var(--siteColor);
 }
 @media screen and (min-width:992px){
 
-    .bannerWidth{
-        width:75%;
-        top:100px;
-    }
    /* nav section */
     .login{
         position:static;
@@ -465,10 +413,6 @@ color:var(--siteColor);
     
    /* home section */
 
-
-/* .contestBanner{
-    height: 80vh;
-} */
 .btn-width{
     width:100%;
 }
