@@ -33,6 +33,9 @@
 .w-90{
     width:95%;
 }
+.w-45{
+    width:45%;
+}
 
 /* General Classes */
 
@@ -90,13 +93,29 @@ nav{
 
 /* Nav SECtion */
 
+.googleLogin{
+    color:#fff;
+    background-color: #DE4A39;
+}
+.fbLogin{
+    color:#fff;
+    background-color: #3A5997;
+}
+
+.bg-login{
+    background-color: #F4F3F3;
+}
+
+.bg-login:hover{
+    background-color: #b8b0b0;
+}
+
 #Banner{
     padding-top: 200px;
     padding-bottom: 200px;
     background-image: url('../images/banner-bg.jpg');
     background-size: cover;
     background-position: center top;
-    /* height: 150vh; */
 }
 
 .heading{
