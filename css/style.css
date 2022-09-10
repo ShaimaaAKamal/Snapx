@@ -91,10 +91,12 @@ nav{
 /* Nav SECtion */
 
 #Banner{
+    padding-top: 200px;
+    padding-bottom: 200px;
     background-image: url('../images/banner-bg.jpg');
     background-size: cover;
     background-position: center top;
-    height: 130vh;
+    /* height: 150vh; */
 }
 
 .heading{
@@ -158,13 +160,23 @@ color:var(--siteColor)!important;
     transform: translateY(0);
 }
 
- .BannerCaption{
-    bottom:50px;
+
+/* .BannerCaption{
+    left:50%;
+    transform: translateX(-50%);
+    top:20px;
+} */
+ /* .BannerCaption{
+    bottom:70px;
+} */
+
+.bannerWidth{
+    width:95%
 }
 
-.contestBanner .BannerCaption{
-    top:110px;
-}
+/* .contestBanner .BannerCaption{
+    bottom:-70px;
+} */
 
 
 /* Categories SECTION */
@@ -377,17 +389,17 @@ color:var(--siteColor);
     font-size: .8rem;
 }
 @media screen and (min-width:500px){
-    #Banner{
+    /* #Banner{
         height:115vh;
-       }
+       } */
     
 }
 
 @media screen and (min-width:768px){
     
-    #Banner{
-        height:110vh;
-       }
+    /* #Banner{
+        height:120vh;
+       } */
 
     .btn-left{
         left:-50px;
@@ -408,6 +420,11 @@ color:var(--siteColor);
 
 }
 @media screen and (min-width:992px){
+
+    .bannerWidth{
+        width:75%;
+        top:100px;
+    }
    /* nav section */
     .login{
         position:static;
