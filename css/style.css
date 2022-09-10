@@ -263,7 +263,10 @@ color:var(--siteColor)!important;
 .contestBanner{
     background-image:url("../images/heading-bg.jpg");
     background-size: cover;
-    height: 95vh;
+
+    /* height: 95vh; */
+    padding-top:200px;
+    padding-bottom:200px;
 }
 
 
@@ -279,7 +282,7 @@ color:var(--siteColor)!important;
 
 
 .contestSearch{
-    top:-50px;
+    top:-70px;
 }
 
 
@@ -409,9 +412,9 @@ color:var(--siteColor);
           right:-50px;
       }
 
-      .contestBanner{
+      /* .contestBanner{
         height: 90vh;
-    }    
+    }     */
 
     .quote::after{
         left:0;
@@ -459,9 +462,9 @@ color:var(--siteColor);
    /* home section */
 
 
-.contestBanner{
+/* .contestBanner{
     height: 80vh;
-}
+} */
 .btn-width{
     width:100%;
 }
