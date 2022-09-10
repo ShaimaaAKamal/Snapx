@@ -37,12 +37,16 @@
     width:45%;
 }
 
+
 /* General Classes */
 
 /* Nav SECTION */
 
 nav{
     z-index:999999
+}
+.modalWidth{
+ width:85%;
 }
 
 .bg-nav-site{
@@ -381,7 +385,9 @@ color:var(--siteColor);
 }
 
 @media screen and (min-width:768px){
-    
+    .modalWidth{
+        width:60%;
+       }
     
     .btn-left{
         left:-50px;
@@ -399,6 +405,10 @@ color:var(--siteColor);
 }
 @media screen and (min-width:992px){
 
+
+    .modalWidth{
+        width:40%;
+       }
    /* nav section */
     .login{
         position:static;
